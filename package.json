@@ -3,7 +3,7 @@
   "version": "0.0.1-alpha",
   "description": "minify for wxapp",
   "bin": {
-    "minify": "./bin/minify.js"
+    "wxapp-minify": "./bin/minify.js"
   },
   "main": "lib/index.js",
   "author": "talltotal",
@@ -15,6 +15,7 @@
     "fs-extra": "^9.1.0",
     "html-minifier": "^4.0.0",
     "postcss": "^8.2.8",
+    "svgo": "^2.3.0",
     "v8-compile-cache": "^2.3.0"
   },
   "repository": {

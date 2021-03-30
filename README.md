@@ -2,9 +2,9 @@
 
 为微信小程序原生语法设计的压缩脚本。
 
-支持压缩的文件类型：`.wxss``.json``.wxml``.svg`。
+支持压缩的文件类型：`.wxss` `.json` `.wxml` `.svg`。
 
-支持对`.wxss`和`.wxml`文件缓存。
+支持对`.wxss` `.wxml`和`.svg`文件缓存。
 
 
 
@@ -41,11 +41,11 @@ module.exports = {
 
 指令运行：
 ```bash
-$ npx minify
+$ npx wxapp-minify
 # or
-$ ./node_modules/.bin/minify --help
+$ ./node_modules/.bin/wxapp-minify --help
 
-Usage: minify [options] [targetDir]
+Usage: wxapp-minify [options] [targetDir]
 
 压缩微信小程序原生语法文件
 
