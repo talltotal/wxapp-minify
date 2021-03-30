@@ -1,0 +1,34 @@
+{
+  "name": "@talltotal/wxapp-minify",
+  "version": "0.0.1-alpha",
+  "description": "minify for wxapp",
+  "bin": {
+    "minify": "./bin/minify.js"
+  },
+  "main": "lib/index.js",
+  "author": "talltotal",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "commander": "^7.2.0",
+    "cssnano": "^4.1.10",
+    "fs-extra": "^9.1.0",
+    "html-minifier": "^4.0.0",
+    "postcss": "^8.2.8",
+    "v8-compile-cache": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talltotal/wxapp-minify.git"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "minify",
+    "wxapp",
+    "微信小程序",
+    "压缩"
+  ]
+}
