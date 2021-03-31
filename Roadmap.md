@@ -2,6 +2,10 @@
 调整为esm模式，使用rollup打包，支持esm和cjs。
 
 
+## deps模式
+不加载未使用文件。
+
+
 ## 验证 options
 `require('schema-utils').validate`
 
@@ -23,7 +27,7 @@
      * 2: 3916-4032
      * 3: 4117-4474
      */
-     workers: 0,
+    workers: 0,
 }
 
 const os = require('os')

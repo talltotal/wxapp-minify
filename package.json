@@ -1,6 +1,6 @@
 {
   "name": "@talltotal/wxapp-minify",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1-alpha.2",
   "description": "minify for wxapp",
   "bin": {
     "wxapp-minify": "./bin/minify.js"
@@ -10,10 +10,10 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "@talltotal/html-minifier": "4.0.1",
     "commander": "^7.2.0",
     "cssnano": "^4.1.10",
     "fs-extra": "^9.1.0",
-    "html-minifier": "^4.0.0",
     "postcss": "^8.2.8",
     "svgo": "^2.3.0",
     "v8-compile-cache": "^2.3.0"
@@ -28,6 +28,7 @@
   ],
   "keywords": [
     "minify",
+    "minifier",
     "wxapp",
     "微信小程序",
     "压缩"
